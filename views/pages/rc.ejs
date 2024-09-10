@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Karayouke App</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+        <link rel="stylesheet" href="/css/control.css">
+        <link rel="stylesheet" href="/css/common.css">
+
+        <link rel="manifest" href="manifest.webmanifest" />
+    </head>
+    
+    <body>
+
+       
+        <div class="main-con">
+         
+            <div class="header">
+                <div class="header-content" >
+                    <!-- <%- include("shared/links") -%>  -->
+                    
+                    <div class="search-con" style="position: relative;">
+                  
+                        <input type="text" placeholder="Search song title / artist" class="search-box">
+                        <!-- <div class="search-suggestion">
+                            <ul class="search-suggestion-list">
+
+                            </ul>
+                        </div> -->
+                        
+                    </div>
+                   
+                    <!-- <div class="links-menu">
+                        <label for="check">
+                            <input type="checkbox" id="check"/> 
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                          </label>
+                    </div> -->
+                </div>
+              
+            </div>
+            <div class="controls-btn-con">
+                <img src="images/stop.svg" id="stop-btn"/>
+                <img src="images/play.svg" id="play-btn"/>
+                <img src="images/pause.svg" id="pause-btn" />
+            </div>
+            <div class="search-result-container">
+                
+            </div>
+        </div>
+        <script src="/js/autocomplete.js"></script>
+      
+        <script src="/js/rc.js" type="module"></script>
+    </body>
+</html>
